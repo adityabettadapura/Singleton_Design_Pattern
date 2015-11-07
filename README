@@ -1,0 +1,28 @@
+Author: Aditya Bettadapura
+
+Project description: Singleton Design Pattern
+This project makes use of the singleton design pattern to implement a ChessBoard class.
+
+To play
+-------
+The chessboard squares are numbered as follows: 11 to 18, 21 to 28 ... 81 to 88
+Black pawns are at 11 to 18 and 21 to 28. 
+White pawns are at 71 to 78 and 81 to 88.
+Enter the appropriate square number to move the pawn.
+The game will run until user enters 0 to signal gameover. 
+
+Building the executable:
+Make sure that all the .h and .cpp files are in the same folder as the supplied Makefile.
+make - builds target "run", using g++ compiler.
+make clang- builds target "run", using clang compiler.
+make clean - removes executable and other object files.
+
+Files:
+1. main.cpp - Contains main function with gameloop. Enter zeroes to exit the game.
+2. chess.h - Contains declarations of the singleton ChessBoard class.
+3. chess.cpp - Contains definitions of the ChessBoard class.
+4. player.h - Contains declarations of the Player class. Includes methods to validate moves. 
+5. player.cpp - Contains the definitions of the Player class.
+6. README - This file
+
+
